@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ocean"
+    tools:context="com.example.rohitsingh.drinkcounter.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="81dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginRight="118dp"
+        android:gravity="center"
+        android:text="@string/solid"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/background_light"
+        android:visibility="visible"
+        tools:text="Number of glass Drunk" />
+
+    <TextView
+        android:id="@+id/num"
+        style="@android:style/Widget.DeviceDefault.AutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textView"
+        android:layout_marginLeft="264dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="19dp"
+
+        android:ems="10"
+        android:gravity="center"
+        android:text="@string/drinks"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp"
+        android:text="@string/one_more" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/num"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/empty" />
+
+</android.widget.RelativeLayout>

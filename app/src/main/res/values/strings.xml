@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Drink counter</string>
+    <string name="solid">Number of glass Drunk</string>
+    <string name="one_more">One more</string>
+    <string name="drinks">0</string>
+    <string name="todo">TODO</string>
+</resources>
