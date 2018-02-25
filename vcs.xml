@@ -14,6 +14,10 @@
           <option name="url" value="https://github.com/Pranav-Bhaskar/Donate.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Pranav-Bhaskar/Med_app" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Rohit Singh\AndroidStudioProjects" />
