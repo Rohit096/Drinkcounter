@@ -1,0 +1,9 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="com.google.android.gms.tasks.Task.addOnCompleteListener(activity,onCompleteListener)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
