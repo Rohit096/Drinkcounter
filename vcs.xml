@@ -18,6 +18,14 @@
           <option name="url" value="https://github.com/Pranav-Bhaskar/Med_app" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Rohit096/android-samples/tree/master/ApiDemos/java" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/googlesamples/android-play-location/tree/master/LocationAddress/java" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Rohit Singh\AndroidStudioProjects" />
